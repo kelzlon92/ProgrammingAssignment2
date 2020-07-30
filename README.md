@@ -103,3 +103,12 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+## to test the matrix
+my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
+my_matrix
+
+my_matrix$get()
+my_matrix$getInverse()
+cacheSolve(my_matrix)
+
+
